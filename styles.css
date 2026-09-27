@@ -1065,3 +1065,21 @@ html{scroll-behavior:smooth;}
 
 /* 5) Footer: más área táctil por link */
 .footer-nav a,.footer-contact a{display:inline-block;padding-block:.2rem;}
+
+
+/* ============================================================
+   Legales (Política de privacidad)
+   ============================================================ */
+.legal h2{font-size:clamp(1.35rem,2.4vw,1.7rem);margin:2.6rem 0 .9rem;}
+.legal .legal-updated{font-size:.85rem;color:rgba(43,42,34,.6);margin:0 0 .5rem;}
+.legal ul{margin:0 0 1.1rem;padding-left:1.25rem;}
+.legal li{font-size:1.05rem;line-height:1.78;color:rgba(43,42,34,.82);margin-bottom:.4rem;}
+.legal a{color:var(--olive);text-underline-offset:.2em;overflow-wrap:anywhere;}
+.legal a:hover{color:var(--gold-deep);}
+.legal .legal-notice{font-size:.9rem;line-height:1.7;padding:1.1rem 1.25rem;border-left:3px solid var(--sage);background:var(--paper);border-radius:0 8px 8px 0;}
+
+.footer-bottom p + p{margin-top:.5rem;}
+.footer-bottom a{color:inherit;text-underline-offset:.2em;}
+.footer-bottom a:hover{color:var(--gold);}
+.waitlist .note a{color:inherit;text-underline-offset:.2em;}
+.waitlist .note a:hover{color:var(--gold);}

@@ -61,6 +61,7 @@
   hs.forEach(function(h){
     if(h.classList.contains('skip')) return;      // headings ocultos (a11y)
     if(h.closest('.about-title')) return;         // ya tiene su línea propia
+    if(h.closest('.legal')) return;               // página legal: títulos sin adorno
     h.classList.add('su-line');
     if(getComputedStyle(h).textAlign === 'center') h.classList.add('su-center');
   });
